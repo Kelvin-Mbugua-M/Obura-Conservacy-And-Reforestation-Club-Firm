@@ -1,80 +1,71 @@
-.headerCampsite{
-    background: url("navimage.jpeg") cover no-repeat
-    greenyellow;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-content: flex-end;
-    height: 6.5vh;
-    width:100%;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    top:0;
-    left:0;
-    position:fixed;
-    scroll-behavior: smooth;
-}
-nav{
-    display:flex;
-    align-items: center;
-    align-content: flex-end;
-
-}
-nav ul{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    align-content: space-around;
-    column-gap: 34vh;
-}
-nav ul li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-self: center;
-    column-gap: 23vh;
-}
 nav ul li a{
     text-decoration: none;
-    font-size: x-large;
-    color:greenyellow;
-    stroke-opacity: 0.2;
-    column-gap: 5vh;
-}
-nav ul li a:hover{
     font-weight: bolder;
-    opacity:0.9;
+    font-size: x-large;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    
+}
+nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    column-gap: 4vw;
 }
 #link{
-    height: 6vh;
-    width:20vh;
-    background-color:blue;
-    border-radius: 12px;
-    border: none;
+    height:5vh;
+    width:12vw;
+    background-color: green;
+    opacity:.5;
+   border: none;
+   border-radius: 12px;
 }
 #link:hover{
-    transition: ease-in-out 2s;
-    background-color: aqua;
-    border-radius:15px ;
-}
-.textCampsite p{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    transform: translate(-50%,-50%);
-    position: relative;
+    cursor: cell;
+    border:none;
+    transition: ease-in-out 1.5s;
+    background-color: greenyellow;
+    fill-opacity: .9;
 }
 .headerCampsite{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    position: relative;
+    position:-webkit-sticky;
 }
-#hotel{
+.headerCampsiteText{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: expanded;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.TextBoxHeaderCampsite{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-stretch: expanded;
+    font-weight: bold;
+
+}
+.listHotelCampsite{
     display: flex;
     flex-direction: column;
-    align-self: center;
-    align-content: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+#hotelImages{
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
+#hotel{
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
+img{
+    height: 450px;
+    width: 400px;
 }
