@@ -1,0 +1,80 @@
+.headerCampsite{
+    background: url("navimage.jpeg") cover no-repeat
+    greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+    height: 6.5vh;
+    width:100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    top:0;
+    left:0;
+    position:fixed;
+    scroll-behavior: smooth;
+}
+nav{
+    display:flex;
+    align-items: center;
+    align-content: flex-end;
+
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    column-gap: 34vh;
+}
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    column-gap: 23vh;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color:greenyellow;
+    stroke-opacity: 0.2;
+    column-gap: 5vh;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    opacity:0.9;
+}
+#link{
+    height: 6vh;
+    width:20vh;
+    background-color:blue;
+    border-radius: 12px;
+    border: none;
+}
+#link:hover{
+    transition: ease-in-out 2s;
+    background-color: aqua;
+    border-radius:15px ;
+}
+.textCampsite p{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.headerCampsite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
+#hotel{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+}
