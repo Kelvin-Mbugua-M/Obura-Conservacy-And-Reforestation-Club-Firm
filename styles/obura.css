@@ -164,3 +164,36 @@ Footer ol li a img:hover{
     background-size: cover;
     border-radius: 10px;
 }
+#seedlings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#seedlings ol li::marker{
+    content: url("/Obura-Conservacy-And-Reforestation-Club-Firm/png_background/glide.png");
+    font-size: 0.89;
+}
+.seedlings_Donate_button{
+    height: 3em;
+    width:20em;
+    border-radius: 12px;
+    background-color: green;
+}  
+.seedlings_Donate_button :hover{
+    transition: ease-in 500ms;
+    border: none;
+    background:greenyellow;
+    font-size: 120%;
+    grid-row: 1.2;
+}
+
+#slides_seedlings{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/cypress.jpg");
+    width: 42%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
