@@ -2,7 +2,7 @@
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background: rgb(0, 255, 85);
+    /* background: rgb(0, 255, 85); */
     opacity: ;
 }
 
@@ -73,7 +73,7 @@
     
 
 }
-Footer ol li a img:hover{
+.Footer img:hover{
     transform:rotate(20deg);
     transition: ease-in-out 2s infinite;
     transform: rotateX(30deg);
@@ -213,4 +213,31 @@ Footer ol li a img:hover{
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+}
+#animals_container{
+   
+    height: 100%;
+}
+#animals img{
+     display: flex;
+    height: 400px;
+    width: 100vw;
+    gap: 2px;
+    margin-bottom: 2px;
+}
+.animals{
+    display: flex;
+
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.animals_container{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/cypress.jpg") cover center black;
+    border-radius: 20px;
+    height: 100%;
+    width:35%;
 }
