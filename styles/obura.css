@@ -1,26 +1,39 @@
 *,html{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 255, 85);
+    opacity: ;
 }
+
 #navMain{
     background: transparent ;
     top:0;
-    position: ;
+    /* position:fixed ;
+    z-index: 10000; */
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    height:8vh;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+    background-color: rgb(0, 255, 85);
+    opacity: 0.7;
 }
 .logoImage{
     height: 70px;
 }
 #navMainPage{
+    top:100px;
     display: flex;
     justify-content: space-between;
     gap: 12vw;
+    align-items: center;
 }
 #navMain #navMainPage ol{
     list-style-type: none;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content:space-around;
     align-items: center;
     place-items: end;
@@ -38,6 +51,7 @@
     color:#000045;
     font-size: x-large;
     text-transform: capitalize;
+    opacity: 1;
 }
 .Footer{
     background: white transparent;
@@ -75,7 +89,8 @@ Footer ol li a img:hover{
     text-align:justify;
     justify-content: center;
     align-items: center;
-
+    margin-top: 2vh;
+    margin-bottom: 30px;
 }
 #companyName{
     display: flex;
@@ -109,7 +124,7 @@ Footer ol li a img:hover{
     width: 100vw;
     gap:20px
 }
-.images_slide_1,.images_slide_2
+.images_slide_1,.images_slide_2,.images_slide_3
 {
     display: flex;
     flex-direction: row;
@@ -180,6 +195,8 @@ Footer ol li a img:hover{
     width:20em;
     border-radius: 12px;
     background-color: green;
+    margin-top:7px ;
+    margin-bottom: 7px;
 }  
 .seedlings_Donate_button :hover{
     transition: ease-in 500ms;
