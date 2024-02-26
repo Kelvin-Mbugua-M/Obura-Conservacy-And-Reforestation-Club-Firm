@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/campsite.css">
-    <script src="java.js"></script>
+    <script src="javaScript.js"></script>
 </head>
 <body>
     <header class="headerCampsite">
@@ -13,7 +13,7 @@
             <ul class="liCampsite" type="none">
                 <li><a href="#hotel">hotel</a></li>
                 <li><a href="#campsite">campsite</a></li>
-                <li><a href="index.html"><button type="submit" id="link">Return Home</button></a></li>
+                <li><a href="obura.html"><button type="submit" id="link">Return Home</button></a></li>
             </ul>
         </nav>
     </header>
@@ -99,14 +99,18 @@
                         <p class="listHoteltext">
                             <h3>Currency</h3>
                             We have an on-site Currency bureau and accept payments from different denominations
-                        <button onclick="openPop()">
-                            currency rates
+                       <br> 
+                       <div class="currency">
+                       <input type="number" value="" id="input_button" placeholder=" CHINESE YUAN">
+                       <input type="number" value="" id="input_button" placeholder="AMERICAN DOLLAR $">
+                       <input type="number" value="place" id="input_button" placeholder="BRITISH POUND">
+                       <button onclick="Dollar_convert()">
+                            DOLLAR CONVERT
                         </button>
-                        <div id="popup" class="popup">
-                            table
+                        <div id="dollar_output_div" class="">
+                            <p id="dollar_output"></p>
                         </div>
-                        <div id="overlay" class="overlay"></div>
-                        </p>
+                       </div>
                     </li>
                     <li>
                         <p class="listHoteltext">
@@ -138,9 +142,26 @@
             <div class="img_6"></div>
             <div class="img_7"></div>
             <div class="img_8"></div>
+            
         </div>
        
     </section>
+    <section id="campSite_Section
+    ">
+
+</section>
+<section class="Footer">
+    <footer>
+        <ol>
+            <li><a href="" class="linkFooter"><img src="/Obura-Conservacy-And-Reforestation-Club-Firm/png_background/github_733609.png" alt="github_icon"></a></li>
+            <li><a href="" class="linkFooter"><img src="/Obura-Conservacy-And-Reforestation-Club-Firm/png_background/twitter_5968958.png" alt="txitter_icon"></a></li>
+            <li><a href="" class="linkFooter"><img src="/Obura-Conservacy-And-Reforestation-Club-Firm/png_background/whatsapp.png" alt=""></a></li>
+            <li><a href="" class="linkFooter"><img src="/Obura-Conservacy-And-Reforestation-Club-Firm/png_background/ig_pic.png" alt="instagram"></a></li>
+            <li><a href="" class="linkFooter"><img src="/Obura-Conservacy-And-Reforestation-Club-Firm/png_background/linked-in.png" alt="linked in"></a></li>
+        </ol>
+    </footer>
+</section>
+    
    
 </body>
 </html>

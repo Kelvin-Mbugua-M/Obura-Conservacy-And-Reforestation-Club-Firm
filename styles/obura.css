@@ -1,0 +1,84 @@
+#navMain{
+    background: transparent ;
+    top:0;
+    position: ;
+}
+#navMain #navMainPage ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    row-gap: 12vw;
+}
+#navMain #navMainPage ol li{
+    display: flex;
+    flex-direction: row;
+    gap:12vw;
+}
+#navMain #navMainPage ol li a{
+
+}
+.Footer{
+    background: white transparent;
+    position: fixed;
+    bottom:0;
+    width:100vw;
+    overflow: hidden;
+    
+}
+.Footer ol{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Footer ol li a img{
+    height: 20px;
+    opacity:1;
+    
+
+}
+Footer ol li a img:hover{
+    transform:rotate(20deg);
+    transition: ease-in-out 2s infinite;
+    transform: rotateX(30deg);
+    color:#7DF9FF;
+    
+
+
+}
+.introductionectionMain{
+    display: flex;
+    top: ;
+    flex-direction: column;
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+
+}
+#companyName{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-size: x-large;
+}
+#companyProducts{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+}
+#companyProducts ol li{
+    list-style-type: circle;
+    text-align: justify;
+}
+#companyProducts ol li a{
+    text-decoration: none;
+    color:black;
+
+}
