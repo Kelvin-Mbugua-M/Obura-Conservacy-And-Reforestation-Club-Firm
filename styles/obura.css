@@ -6,11 +6,24 @@
     opacity: ;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+
+body{
+    padding-top: 150px;
+}
+
+
+
 #navMain{
-    background: transparent ;
+    /* background: transparent ; */
     top:0;
-    /* position:fixed ;
-    z-index: 10000; */
+    
+    z-index: 10000;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,7 +31,7 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0 ;
     background-color: rgb(0, 255, 85);
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 .logoImage{
     height: 70px;
@@ -84,12 +97,14 @@
 }
 .introductionectionMain{
     display: flex;
-    top: ;
+    position: relative;
+    margin-top: 260px;;
+   
     flex-direction: column;
     text-align:justify;
     justify-content: center;
     align-items: center;
-    margin-top: 2vh;
+   
     margin-bottom: 30px;
 }
 #companyName{
