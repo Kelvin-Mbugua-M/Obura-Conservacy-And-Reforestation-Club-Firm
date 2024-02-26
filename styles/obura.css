@@ -1,22 +1,43 @@
+*,html{
+    overflow-x: hidden;
+}
 #navMain{
     background: transparent ;
     top:0;
     position: ;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logoImage{
+    height: 70px;
+}
+#navMainPage{
+    display: flex;
+    justify-content: space-between;
+    gap: 12vw;
 }
 #navMain #navMainPage ol{
     list-style-type: none;
     display: flex;
-    justify-content: center;
     align-items: end;
-    row-gap: 12vw;
+    justify-content:space-around;
+    align-items: center;
+    place-items: end;
+    gap: 6vw;
+    
 }
 #navMain #navMainPage ol li{
     display: flex;
     flex-direction: row;
-    gap:12vw;
+    row-gap:12px;
 }
 #navMain #navMainPage ol li a{
-
+    text-align: center;
+    text-decoration: none;
+    color:#000045;
+    font-size: x-large;
+    text-transform: capitalize;
 }
 .Footer{
     background: white transparent;
@@ -73,12 +94,73 @@ Footer ol li a img:hover{
     align-items: center;
     font-style: normal;
 }
-#companyProducts ol li{
-    list-style-type: circle;
-    text-align: justify;
+#companyProducts ol li::marker{
+    content: url("/Obura-Conservacy-And-Reforestation-Club-Firm/png_background/glide.png");
+    font-size: 0.89;
 }
 #companyProducts ol li a{
     text-decoration: none;
     color:black;
 
+}
+#images_slide_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap:20px
+}
+.images_slide_1,.images_slide_2
+{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    gap: 20px;
+}
+#image_1{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/hare.jpg");
+    width: 40%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#image_2{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/bird.jpg");
+    width: 58%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#image_3{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/gazelle.jpg");
+    width:30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#image_4{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/antelope.jpg");
+    width: 22%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#image_5{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/lion.jpg");
+    width: 16%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#image_6{
+    background: url("/Obura-Conservacy-And-Reforestation-Club-Firm/obura/predator.jpg");
+    width: 42%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
 }
