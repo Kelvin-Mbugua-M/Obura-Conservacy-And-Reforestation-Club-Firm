@@ -19,7 +19,7 @@ function Yuan(){
  let Denomination_Value = feed
  return Cash_Convert()
 }
-function Dollar(){
+var Dollar()=>{
     let Denomination = "Dollar $ ";
     let Denomination_Value = feed+42.15
     return Cash_Convert()
