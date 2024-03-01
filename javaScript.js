@@ -1,7 +1,7 @@
 document.getElementsById("hotel").innerHTML+="sdjvercknw,cjewhd,jwqekhbqwkjdxgbewykdugbqwdiqwkj";
 let converter=document.getElementById("input_button");
 let output_currency=document.getElementsById("dollar_output");
-feed=((Math.random)*100).floor
+feed=((Math.random())*100).floor();
 function Cash_Convert(){
     
     if(converter.isNan()){
