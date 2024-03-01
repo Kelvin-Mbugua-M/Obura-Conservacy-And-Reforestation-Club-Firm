@@ -4,7 +4,7 @@ let output_currency=document.getElementsById("dollar_output");
 feed=((Math.random)*100).floor
 function Cash_Convert(){
     
-    if(converter.isNan){
+    if(converter.isNan()){
         return 0;
     }
     let currency_D=converter*Denomination_Value;
